@@ -1,0 +1,12 @@
+import 'core-js/stable/array/find';
+import 'core-js/stable/array/includes';
+import 'core-js/stable/array/find-index';
+import 'core-js/stable/math/trunc';
+import 'core-js/stable/promise';
+import 'core-js/stable/object/assign';
+import 'core-js/stable/string/includes';
+import 'core-js/stable/string/pad-start';
+import 'core-js/stable/string/pad-end';
+import 'core-js/stable/string/repeat';
+import 'core-js/stable/object/values';
+import 'core-js/stable/object/entries';

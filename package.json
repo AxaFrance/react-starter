@@ -1,0 +1,59 @@
+{
+  "name": "react-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@axa-fr/react-toolkit-all": "^1.2.1",
+    "@axa-fr/react-toolkit-core": "^1.2.1",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "core-js": "^3.0.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint ./src/",
+    "lint:fix": "./node_modules/.bin/eslint ./src/ --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^3.8.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "husky": "^2.2.0",
+    "prettier": "^1.17.0"
+  }
+}
