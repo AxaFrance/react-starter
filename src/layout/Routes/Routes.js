@@ -2,13 +2,15 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from 'Home';
-import PageNotFound from 'layout/NotFound';
+import NotFound from 'layout/NotFound';
+import Error from 'layout/Error';
 
 const Routes = () => {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route component={PageNotFound} />
+      <Route exact path="/error" component={Error} />
+      <Route component={NotFound} />
     </Switch>
   );
 };
