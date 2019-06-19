@@ -1,0 +1,10 @@
+.af-footer-content{
+    display: inline-block;
+    width: calc(100% - 60px);
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
