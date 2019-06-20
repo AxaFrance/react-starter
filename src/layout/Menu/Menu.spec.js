@@ -9,14 +9,6 @@ const location = {
   pathname: '/whatever',
 };
 
-const context = {
-  contract: {
-    numContrat: {
-      value: 23012,
-    },
-  },
-};
-
 it('1. Renders Menu component without crashing', () => {
-  shallow(<Menu location={location} context={context} />);
+  shallow(<Menu location={location} />);
 });

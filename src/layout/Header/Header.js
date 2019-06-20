@@ -3,7 +3,7 @@ import logo from '@axa-fr/react-toolkit-core/dist/assets/logo-axa.svg';
 import { Header, Name, User } from '@axa-fr/react-toolkit-all';
 import './Header.scss';
 
-export const HeaderApp = () => (
+export default () => (
   <Header>
     <Name
       title="Starter kit"

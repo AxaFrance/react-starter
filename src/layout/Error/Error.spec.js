@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import NotFound from './NotFound';
+import Error from './Error';
 
-it('1. Renders NotFound component without crashing', () => {
-  shallow(<NotFound />);
+it('1. Renders Error component without crashing', () => {
+  shallow(<Error />);
 });

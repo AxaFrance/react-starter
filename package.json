@@ -8,6 +8,9 @@
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "core-js": "^3.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest-fetch-mock": "2.1.2",
     "lodash": "4.17.11",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
@@ -42,8 +45,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.12.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.2.0",

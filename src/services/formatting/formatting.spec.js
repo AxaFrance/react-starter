@@ -1,9 +1,9 @@
 import { getLabel } from 'services/formatting';
 
-it('14. Get label from labels.json : getLabel', () => {
-  const func = getLabel('places.title');
-  expect(func).toEqual('Consultation des sites du contrat');
+it('should return the label ', () => {
+  const labelSimple = getLabel('test.simple');
+  expect(labelSimple).toEqual('simple value');
 
-  const func2 = getLabel('contract.view.title', [23]);
-  expect(func2).toEqual('Consultation du contrat n° 23');
+  const labelComplex = getLabel('test.complex', ['value']);
+  expect(labelComplex).toEqual('complex value');
 });

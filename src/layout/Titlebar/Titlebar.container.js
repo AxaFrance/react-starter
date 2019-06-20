@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Titlebar } from './Titlebar';
+import Titlebar from './Titlebar';
 
 const EnhancedTitlebar = props => {
   useEffect(() => {}, []);
