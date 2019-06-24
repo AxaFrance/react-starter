@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/services/formatting/formatting.spec.js">
+  </file>
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/App/App.test.js">
+  </file>
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/ServerError/ServerError.spec.js">
+  </file>
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/Home/Home.spec.js">
+  </file>
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/Menu/Menu.spec.js">
+  </file>
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/Titlebar/Titlebar.spec.js">
+  </file>
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/NotFound/NotFound.spec.js">
+  </file>
+  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/Header/Header.spec.js">
+  </file>
+</testExecutions>
