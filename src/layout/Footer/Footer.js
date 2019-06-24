@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '@axa-fr/react-toolkit-core/dist/assets/logo-axa.svg';
 import { getLabel } from 'services/formatting';
 import { version } from '../../../package.json';
+import { labels } from './Footer.conf';
+
 import './Footer.scss';
 
 const FooterApp = () => (
@@ -13,11 +15,11 @@ const FooterApp = () => (
       <div className="af-footer-content">
         <div className="footer__content">
           <div className="footer__base">
-            {getLabel('footer.title')} 
-            <i>{getLabel('footer.complementary')}</i>
+            {getLabel(labels, 'title')}
+            <i>{getLabel(labels, 'complementary')}</i>
           </div>
           <div className="footer__info">
-            <p>{getLabel('footer.version', [version])}</p>
+            <p>{getLabel(labels, 'version', [version])}</p>
           </div>
         </div>
       </div>

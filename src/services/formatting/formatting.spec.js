@@ -1,9 +1,23 @@
 import { getLabel } from 'services/formatting';
 
-it('should return the label ', () => {
-  const labelSimple = getLabel('test.simple');
-  expect(labelSimple).toEqual('simple value');
+describe('getLabel', () => {
+  let labels = {};
+  beforeEach(() => {
+    labels = {
+      test: {
+        simple: 'simple value',
+        complex: 'complex {1}',
+      },
+    };
+  });
 
-  const labelComplex = getLabel('test.complex', ['value']);
-  expect(labelComplex).toEqual('complex value');
+  it('should return the label for a specified key', () => {
+    const labelSimple = getLabel(labels, 'test.simple');
+    expect(labelSimple).toEqual('simple value');
+  });
+
+  it('should return the label and the dynamic value for a specified key', () => {
+    const labelComplex = getLabel(labels, 'test.complex', ['value']);
+    expect(labelComplex).toEqual('complex value');
+  });
 });

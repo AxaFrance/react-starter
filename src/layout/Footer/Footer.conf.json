@@ -1,9 +1,5 @@
 {
-    "test": {
-        "simple": "simple value",
-        "complex": "complex {1}"
-    },
-    "footer": {
+    "labels": {
         "title": "Titre du footer",
         "complementary": "Tous droits réservés",
         "version": "Version: {1}"
