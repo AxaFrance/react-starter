@@ -1,9 +1,9 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import HeaderApp from './Header';
+import { HeaderApp } from './Header';
 
 const EnhancedHeader = props => {
-  return <HeaderApp />;
+  return <HeaderApp {...props} />;
 };
 
 export default withRouter(EnhancedHeader);

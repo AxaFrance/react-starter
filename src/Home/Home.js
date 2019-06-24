@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Titlebar from 'layout/Titlebar';
 import Menu from 'layout/Menu';
 
 import './Home.scss';
 
-export default ({ location, title }) => (
+export const Home = ({ location, title }) => (
   <>
     <Menu location={location} />
     <Titlebar title={title} />
@@ -33,3 +34,10 @@ export default ({ location, title }) => (
     </div>
   </>
 );
+
+const propTypes = {
+  location: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired,
+};
+
+Home.propTypes = propTypes;

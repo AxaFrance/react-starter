@@ -1,7 +1,7 @@
 import React from 'react';
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Home from './Home';
+import { Home } from './Home';
 
 configure({ adapter: new Adapter() });
 it('1. Renders Home component without crashing', () => {
@@ -12,5 +12,5 @@ it('1. Renders Home component without crashing', () => {
     math: '',
     params: '',
   };
-  shallow(<Home location={location} context={context} />);
+  shallow(<Home location={location} context={context} title="Accueil" />);
 });

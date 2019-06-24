@@ -1,1 +1,2 @@
-export { default } from './Menu';
+export { Menu } from './Menu';
+export { default } from './Menu.container';

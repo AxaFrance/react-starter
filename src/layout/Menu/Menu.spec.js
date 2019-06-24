@@ -1,7 +1,7 @@
 import React from 'react';
 import Adapter from 'enzyme-adapter-react-16';
 import { configure, shallow } from 'enzyme';
-import Menu from './Menu';
+import { Menu } from './Menu';
 
 configure({ adapter: new Adapter() });
 

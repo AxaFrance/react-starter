@@ -1,11 +1,12 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { NavBar, NavBarItem } from '@axa-fr/react-toolkit-all';
 
 import './Menu.scss';
 
-export default ({ location }) => (
+export const Menu = ({ location }) => (
   <NavBar positionInit={-1} onClick={() => {}} isVisible>
     <NavBarItem
       classModifier={classNames({
@@ -19,3 +20,9 @@ export default ({ location }) => (
     />
   </NavBar>
 );
+
+const propTypes = {
+  location: PropTypes.object.isRequired,
+};
+
+Menu.propTypes = propTypes;
