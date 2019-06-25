@@ -1,18 +1,31 @@
 {
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "react-app"
+  ],
+  "plugins": [
+    "react",
+    "prettier",
+    "react-hooks"
+  ],
   "env": {
     "browser": true,
     "node": true,
     "es6": true,
     "jest": true
   },
-  "settings": {
-    "react": {
-      "version": "16.8.6"
-    }
-  },
-  "extends": ["airbnb", "prettier", "prettier/react", "react-app"],
-  "plugins": ["react", "prettier", "react-hooks"],
   "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
     "linebreak-style": 0,
     "import/no-extraneous-dependencies": "warn",
     "import/no-unresolved": "off",
@@ -24,12 +37,6 @@
     "jsx-a11y/no-autofocus": 1,
     "jsx-a11y/no-noninteractive-element-interactions": 1,
     "jsx-a11y/anchor-is-valid": 1,
-    "react/jsx-filename-extension": [
-      2,
-      {
-        "extensions": [".js", ".jsx"]
-      }
-    ],
     "react/forbid-prop-types": 0,
     "react/jsx-closing-bracket-location": 0,
     "react/no-multi-comp": 0,
@@ -39,5 +46,10 @@
     "react/jsx-closing-tag-location": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error"
-  }
+  },
+  "settings": {
+    "react": {
+      "version": "16.8.6"
+    }
+  },
 }
