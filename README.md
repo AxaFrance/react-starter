@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Getting started
+
+To start, you just need to clone this repository:
+
+```bash
+git clone https://github.com/AxaGuilDEv/react-starter.git
+cd react-starter
+npm i
+npm start
+```
+
+And, voilà!
+
 ## Available Scripts
 
 In the project directory, you can run:
