@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Starter kit with the toolkit
 
-## Available Scripts
+## Setup
 
-In the project directory, you can run:
+Like any npm project, `npm install` is used to download all the necessary packages and `npm start` is used to start the project
 
-### `npm start`
+## Adapt to your own project
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The best way to keep the git tree and push this starter on your own repo is to change the remote url (or create a new one).
+To change the origin remote url use `git remote set-url yourNewRepoUrl`.
+After that, you can push this project on your new repository.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## What is available ?
 
-### `npm test`
+This project come with several basics requirements.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Basic template
 
-### `npm run build`
+With a header, a footer, a menu bar and a title bar
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Basics pages
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+A Homepage, a not found page that you can display when you have a 404 for example and a server error page that you can display when you have a 500 for example.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### A router
 
-### `npm run eject`
+### A formatting service
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+├─── src
+│   ├─── context
+│   ├─── Home
+│   ├─── layout
+│   └─── services
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### context
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contains context initialization and an example for an action and a reducer
 
-## Learn More
+### Home
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Home is a page example
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### layout
 
-### Code Splitting
+The layout folder your components like Header, Footer, or even the Router
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### services
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Services is a more generic folders. The goal is to keep in the same place all the reusable pure feature.
