@@ -1,14 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Titlebar from 'layout/Titlebar';
-import Menu from 'layout/Menu';
 
 import './Home.scss';
 
-export const Home = ({ location, title }) => (
+export const Home = ({ location, title, subtitle }) => (
   <>
-    <Menu location={location} />
-    <Titlebar title={title} />
     <div className="home container">
       <h1 className="af-title--content">Accueil</h1>
       <p>
