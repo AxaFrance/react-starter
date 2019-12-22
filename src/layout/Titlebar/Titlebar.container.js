@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Titlebar } from './Titlebar';
 
-const EnhancedTitlebar = props => {
+const EnhancedTitlebar = ({ title, subtitle }) => {
   useEffect(() => {}, []);
 
-  return <Titlebar {...props} />;
+  return <Titlebar title={title} subtitle={subtitle} />;
 };
 
 export default EnhancedTitlebar;

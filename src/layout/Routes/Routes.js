@@ -1,8 +1,9 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Titlebar from 'layout/Titlebar';
-import Menu from 'layout/Menu';
+import { Titlebar } from 'layout/Titlebar';
+import { Menu } from 'layout/Menu';
 import { NotFound } from 'layout/NotFound';
 import { ServerError } from 'layout/ServerError';
 

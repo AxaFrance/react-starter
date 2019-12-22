@@ -1,6 +1,6 @@
 import React from 'react';
-import { configure, shallow } from 'enzyme';
-import { Home } from './Home';
+import { shallow } from 'enzyme';
+import { HomeComponent } from './Home';
 
 it('1. Renders Home component without crashing', () => {
   const context = {
@@ -10,5 +10,7 @@ it('1. Renders Home component without crashing', () => {
     math: '',
     params: '',
   };
-  shallow(<Home location={location} context={context} title="Accueil" />);
+  shallow(
+    <HomeComponent location={location} context={context} title="Accueil" />
+  );
 });

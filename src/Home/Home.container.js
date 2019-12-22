@@ -1,10 +1,17 @@
 import React, { useContext } from 'react';
 import { Context } from 'context/Context';
-import { Home } from './Home';
+import { HomeComponent } from './Home';
 
-const EnhancedHome = props => {
+const EnhancedHome = ({ location, title, subtitle }) => {
   const { context } = useContext(Context);
-  return <Home {...props} context={context} />;
+  return (
+    <HomeComponent
+      location={location}
+      title={title}
+      subtitle={subtitle}
+      context={context}
+    />
+  );
 };
 
 export default EnhancedHome;

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './Home.scss';
 
-export const Home = ({ location, title, subtitle }) => (
+export const HomeComponent = ({ location, title, subtitle }) => (
   <div className="home container">
     <h1 className="af-title--content">Accueil</h1>
     <p>
@@ -33,4 +33,4 @@ const propTypes = {
   title: PropTypes.string.isRequired,
 };
 
-Home.propTypes = propTypes;
+HomeComponent.propTypes = propTypes;
