@@ -1,7 +1,7 @@
 import React from 'react';
 import './ServerError.scss';
 
-export const ServerError = () => (
+const ServerError = () => (
   <>
     <div className="container af-container--notfound">
       <h1 className="af-notfound__title">
@@ -15,3 +15,5 @@ export const ServerError = () => (
     </div>
   </>
 );
+
+export default ServerError;

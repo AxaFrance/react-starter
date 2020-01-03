@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/NotFound/NotFound.spec.js">
-    <testCase name="1. Renders NotFound component without crashing" duration="10"/>
+  <file path="/Users/a126ly/DEV_OYO/react-starter/src/pages/ServerError/ServerError.spec.js">
+    <testCase name="1. Renders ServerError component without crashing" duration="8"/>
   </file>
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/ServerError/ServerError.spec.js">
-    <testCase name="1. Renders ServerError component without crashing" duration="11"/>
+  <file path="/Users/a126ly/DEV_OYO/react-starter/src/components/Titlebar/Titlebar.spec.js">
+    <testCase name="1. Renders Titlebar component without crashing" duration="10"/>
   </file>
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/Titlebar/Titlebar.spec.js">
-    <testCase name="1. Renders Titlebar component without crashing" duration="17"/>
+  <file path="/Users/a126ly/DEV_OYO/react-starter/src/pages/Home/Home.spec.js">
+    <testCase name="1. Renders Home component without crashing" duration="8"/>
   </file>
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/services/formatting/formatting.spec.js">
-    <testCase name="getLabel should return the label for a specified key" duration="7"/>
-    <testCase name="getLabel should return the label and the dynamic value for a specified key" duration="1"/>
+  <file path="/Users/a126ly/DEV_OYO/react-starter/src/pages/NotFound/NotFound.spec.js">
+    <testCase name="1. Renders NotFound component without crashing" duration="1"/>
   </file>
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/Menu/Menu.spec.js">
-    <testCase name="1. Renders Menu component without crashing" duration="9"/>
-  </file>
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/Home/Home.spec.js">
-    <testCase name="1. Renders Home component without crashing" duration="10"/>
-  </file>
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/Header/Header.spec.js">
-    <testCase name="1. Renders Header component without crashing" duration="2"/>
-  </file>
-  <file path="/Users/a536bb/Documents/PROJECTS/DAB/react-starter/src/layout/App/App.test.js">
-    <testCase name="renders without crashing" duration="74"/>
+  <file path="/Users/a126ly/DEV_OYO/react-starter/src/layout/App/App.test.js">
+    <testCase name="renders without crashing" duration="106"/>
   </file>
 </testExecutions>

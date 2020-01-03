@@ -1,7 +1,7 @@
 import React from 'react';
 import './NotFound.scss';
 
-export const NotFound = () => (
+const NotFound = () => (
   <>
     <div className="container af-container--notfound">
       <h1 className="af-notfound__title">
@@ -22,3 +22,5 @@ export const NotFound = () => (
     </div>
   </>
 );
+
+export default NotFound;

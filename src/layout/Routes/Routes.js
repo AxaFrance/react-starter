@@ -2,12 +2,23 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import { Titlebar } from 'layout/Titlebar';
-import { Menu } from 'layout/Menu';
-import { NotFound } from 'layout/NotFound';
-import { ServerError } from 'layout/ServerError';
+import Titlebar from 'components/Titlebar';
+import Menu from 'layout/Menu';
+import NotFound from 'pages/NotFound';
+import ServerError from 'pages/ServerError';
 
 import routes from './routes.conf';
+
+const GenericLayout = ({ route }) => (
+  <>
+    <Menu />
+    <Titlebar title={route.titlebar.title} subtitle={route.titlebar.subtitle} />
+    <route.component
+      title={route.titlebar.title}
+      subtitle={route.titlebar.subtitle}
+    />
+  </>
+);
 
 const Routes = () => {
   return (
@@ -17,20 +28,7 @@ const Routes = () => {
           key={route.name}
           exact
           path={route.path}
-          render={props => (
-            <>
-              <Menu location={props.location} />
-              <Titlebar
-                title={route.titlebar.title}
-                subtitle={route.titlebar.subtitle}
-              />
-              <route.component
-                {...props}
-                title={route.titlebar.title}
-                subtitle={route.titlebar.subtitle}
-              />
-            </>
-          )}
+          render={() => <GenericLayout route={route} />}
         />
       ))}
       <Route exact path="/serverError" component={ServerError} />

@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 
 import './Home.scss';
 
-export const HomeComponent = ({ location, title, subtitle }) => (
+export const HomeComponent = ({ title, subtitle }) => (
   <div className="home container">
-    <h1 className="af-title--content">Accueil</h1>
+    <h1 className="af-title--content">{title}</h1>
+    <h2>{subtitle}</h2>
     <p>
       Donec sollicitudin molestie malesuada. Donec sollicitudin molestie
       malesuada. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor
