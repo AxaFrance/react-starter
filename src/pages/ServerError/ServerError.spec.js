@@ -1,7 +1,8 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import ServerError from './ServerError';
 
 it('1. Renders ServerError component without crashing', () => {
-  shallow(<ServerError />);
+  const { asFragment } = render(<ServerError title="test" />);
+  expect(asFragment()).toMatchSnapshot();
 });

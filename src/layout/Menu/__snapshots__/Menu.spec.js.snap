@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Renders Menu component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="af-nav-container"
+  >
+    <button
+      aria-controls="mainmenu"
+      aria-haspopup="true"
+      class="mask fade show"
+      id="togglemenu"
+      type="button"
+    />
+    <nav
+      aria-label="Menu principal"
+      class="af-nav af-drawer left show"
+      role="navigation"
+    >
+      <div
+        class="container af-nav__wrapper"
+      >
+        <div
+          class="af-nav__aside-header"
+        >
+          <h4
+            class="af-nav__aside-title"
+          >
+            Menu
+          </h4>
+          <button
+            aria-controls="mainmenu"
+            aria-haspopup="true"
+            class="af-nav__aside-close"
+            id="togglemenu"
+            type="button"
+          >
+            ×
+          </button>
+        </div>
+        <ul
+          aria-labelledby="togglemenu"
+          class="af-nav__list "
+          id="mainmenu"
+          role="menubar"
+        >
+          <li
+            class="af-nav__item "
+            role="none"
+          >
+            <a
+              aria-expanded="false"
+              class="af-nav__link"
+              href="/"
+              role="menuitem"
+              tabindex="-1"
+            >
+              Accueil
+            </a>
+          </li>
+          <li
+            class="af-nav__item "
+            role="none"
+          >
+            <a
+              aria-expanded="false"
+              class="af-nav__link"
+              href="/dashboard"
+              role="menuitem"
+              tabindex="-1"
+            >
+              Dashboard
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Renders Menu component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="af-header"
+  >
+    <div
+      class="container af-header__wrapper"
+    >
+      <header
+        class="af-header__content"
+        role="banner"
+      >
+        <div
+          class="af-header__name"
+        >
+          <a
+            class="af-logo"
+            href="/"
+          >
+            <img
+              alt="Logo"
+              class="af-logo__brand"
+              src="logo-axa.svg"
+            />
+          </a>
+          <h2
+            class="af-header__title"
+          >
+            Starter kit
+            <small
+              class="af-header__subtitle"
+            >
+              A little project as a demo for all our tools
+            </small>
+          </h2>
+        </div>
+        <div
+          class="af-info-user"
+        >
+          <a
+            class="af-info-user__link"
+            href="#"
+            title="Voir mon profil"
+          >
+            <span
+              class="af-info-user__name"
+            >
+              John Doe
+            </span>
+            <span
+              class="af-info-user__profile"
+            >
+              [Inspecteur]
+            </span>
+          </a>
+        </div>
+      </header>
+    </div>
+  </div>
+  <div
+    class="app"
+  >
+    <div
+      class="af-nav-container"
+    >
+      <button
+        aria-controls="mainmenu"
+        aria-haspopup="true"
+        class="mask fade show"
+        id="togglemenu"
+        type="button"
+      />
+      <nav
+        aria-label="Menu principal"
+        class="af-nav af-drawer left show"
+        role="navigation"
+      >
+        <div
+          class="container af-nav__wrapper"
+        >
+          <div
+            class="af-nav__aside-header"
+          >
+            <h4
+              class="af-nav__aside-title"
+            >
+              Menu
+            </h4>
+            <button
+              aria-controls="mainmenu"
+              aria-haspopup="true"
+              class="af-nav__aside-close"
+              id="togglemenu"
+              type="button"
+            >
+              ×
+            </button>
+          </div>
+          <ul
+            aria-labelledby="togglemenu"
+            class="af-nav__list "
+            id="mainmenu"
+            role="menubar"
+          >
+            <li
+              class="af-nav__item af-nav__item--active "
+              role="none"
+            >
+              <a
+                aria-expanded="false"
+                class="af-nav__link"
+                href="/"
+                role="menuitem"
+                tabindex="-1"
+              >
+                Accueil
+              </a>
+            </li>
+            <li
+              class="af-nav__item "
+              role="none"
+            >
+              <a
+                aria-expanded="false"
+                class="af-nav__link"
+                href="/dashboard"
+                role="menuitem"
+                tabindex="-1"
+              >
+                Dashboard
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div
+      class="af-title-bar"
+    >
+      <div
+        class="af-title-bar__wrapper container-fluid container"
+      >
+        <h1
+          class="af-title-bar__title"
+        >
+          Accueil
+        </h1>
+      </div>
+    </div>
+    <div
+      class="home container"
+    >
+      <h1
+        class="af-title--content"
+      >
+        Accueil
+      </h1>
+      <h2 />
+      <p>
+        Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibh. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus.
+      </p>
+      <p>
+        Sed porttitor lectus nibh. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibh.
+      </p>
+    </div>
+  </div>
+  <footer
+    class="footer"
+  >
+    <div
+      class="container-fluid container"
+    >
+      <div
+        class="af-logo"
+      >
+        <img
+          alt="Logo Axa"
+          class="af-logo__brand"
+          src="logo-axa.svg"
+        />
+      </div>
+      <div
+        class="af-footer-content"
+      >
+        <div
+          class="footer__content"
+        >
+          <div
+            class="footer__base"
+          >
+            Titre du footer
+            <i>
+              Tous droits réservés
+            </i>
+          </div>
+          <div
+            class="footer__info"
+          >
+            <p>
+              Version: 0.1.0
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

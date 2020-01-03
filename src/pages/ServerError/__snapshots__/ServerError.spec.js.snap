@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Renders ServerError component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container af-container--notfound"
+  >
+    <h1
+      class="af-notfound__title"
+    >
+      <div
+        class="af-notfound__title-covernumber"
+      >
+        <span
+          class="af-notfound__title-number"
+        >
+          Err
+        </span>
+      </div>
+    </h1>
+    <p
+      class="af-notfound__message"
+    >
+      The page you are looking for has a problem!
+    </p>
+  </div>
+</DocumentFragment>
+`;

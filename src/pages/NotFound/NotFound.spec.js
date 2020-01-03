@@ -1,7 +1,8 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 import NotFound from './NotFound';
 
 it('1. Renders NotFound component without crashing', () => {
-  shallow(<NotFound />);
+  const { asFragment } = render(<NotFound title="test" />);
+  expect(asFragment()).toMatchSnapshot();
 });

@@ -1,9 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from '@testing-library/react';
+import { StaticRouter } from 'react-router-dom';
+import { Context } from 'context/Context';
+
 import App from './App';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+const wrapper = ({ children }) => (
+  <StaticRouter context={{}}>
+    <Context.Provider value={{ context: { title: 'Titre Accueil' } }}>
+      {children}
+    </Context.Provider>
+  </StaticRouter>
+);
+
+it('1. Renders Menu component without crashing', () => {
+  const { asFragment } = render(<App />, { wrapper });
+  expect(asFragment()).toMatchSnapshot();
 });

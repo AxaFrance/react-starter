@@ -30,7 +30,7 @@ export const HomeComponent = ({ title, subtitle }) => (
 );
 
 const propTypes = {
-  location: PropTypes.object.isRequired,
+  subtitle: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 
