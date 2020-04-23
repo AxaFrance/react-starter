@@ -14,6 +14,6 @@ const wrapper = ({ children }) => (
 );
 
 it('1. Renders Menu component without crashing', () => {
-  const { asFragment } = render(<App />, { wrapper });
+  const { asFragment } = render(<App oidcEnabled={false} />, { wrapper });
   expect(asFragment()).toMatchSnapshot();
 });

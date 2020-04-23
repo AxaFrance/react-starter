@@ -47,7 +47,7 @@ exports[`1. Renders Header component without crashing 1`] = `
             <span
               class="af-info-user__name"
             >
-              John Doe
+              Jean Pascal
             </span>
             <span
               class="af-info-user__profile"
