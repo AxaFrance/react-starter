@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import { Home } from './Home';
 
 it('1. Renders Home component without crashing', () => {

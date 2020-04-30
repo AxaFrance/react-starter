@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '@axa-fr/react-toolkit-core/dist/assets/logo-axa.svg';
 import { getLabel } from 'services/formatting';
 import { version } from '../../../package.json';
-import { labels } from './Footer.conf';
+import { labels } from './Footer.conf.json';
 
 import './Footer.scss';
 

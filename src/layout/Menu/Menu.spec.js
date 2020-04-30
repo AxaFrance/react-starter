@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import { Menu } from './Menu';
 
 const location = {
