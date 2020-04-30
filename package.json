@@ -34,7 +34,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest --no-cache --verbose --config ./jest.config.json",
-    "test:coverage": "react-scripts test --coverage",
+    "test:coverage": "jest --no-cache --verbose --config ./jest.config.json --coverage",
     "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint ./src/",
     "lint:fix": "./node_modules/.bin/eslint ./src/ --fix"
