@@ -1,7 +1,8 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import { HeaderApp } from './Header';
+import { render } from '@testing-library/react';
+import Header from './Header';
 
 it('1. Renders Header component without crashing', () => {
-  shallow(<HeaderApp />);
+  const { asFragment } = render(<Header userName="Jean Pascal" />);
+  expect(asFragment()).toMatchSnapshot();
 });

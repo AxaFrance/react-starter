@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import logo from '@axa-fr/react-toolkit-core/dist/assets/logo-axa.svg';
 import { Header, Name, User } from '@axa-fr/react-toolkit-all';
 import './Header.scss';
 
-export const HeaderApp = () => (
+const HeaderComponent = ({ userName }) => (
   <Header>
     <Name
       title="Starter kit"
@@ -12,6 +13,12 @@ export const HeaderApp = () => (
       alt="Logo"
       onClick={() => {}}
     />
-    <User name="John Doe" href="#" profile="Inspecteur" onClick={() => {}} />
+    <User name={userName} href="#" profile="Inspecteur" onClick={() => {}} />
   </Header>
 );
+
+HeaderComponent.propTypes = {
+  userName: PropTypes.string.isRequired,
+};
+
+export default HeaderComponent;

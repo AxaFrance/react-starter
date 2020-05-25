@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Renders Titlebar component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="af-title-bar"
+  >
+    <div
+      class="af-title-bar__wrapper container-fluid container"
+    >
+      <h1
+        class="af-title-bar__title"
+      >
+        test
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;

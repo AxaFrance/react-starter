@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Renders NotFound component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container af-container--notfound"
+  >
+    <h1
+      class="af-notfound__title"
+    >
+      <div
+        class="af-notfound__title-covernumber"
+      >
+        <span
+          class="af-notfound__title-number"
+        >
+          404
+        </span>
+      </div>
+      <div
+        class="af-notfound__title-covernot"
+      >
+        <span
+          class="af-notfound__title-not"
+        >
+          not
+          <br />
+          found
+        </span>
+      </div>
+    </h1>
+    <p
+      class="af-notfound__message"
+    >
+      The page you are looking for is not here!
+    </p>
+  </div>
+</DocumentFragment>
+`;

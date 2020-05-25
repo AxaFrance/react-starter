@@ -18,6 +18,16 @@ export const Menu = ({ location }) => (
         </Link>
       }
     />
+    <NavBarItem
+      classModifier={classNames({
+        active: location && location.pathname === '/dashboard',
+      })}
+      actionElt={
+        <Link className="af-nav__link" to="/dashboard">
+          Dashboard
+        </Link>
+      }
+    />
   </NavBar>
 );
 

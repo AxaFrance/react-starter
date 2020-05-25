@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. Renders Header component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="af-header"
+  >
+    <div
+      class="container af-header__wrapper"
+    >
+      <header
+        class="af-header__content"
+        role="banner"
+      >
+        <div
+          class="af-header__name"
+        >
+          <a
+            class="af-logo"
+            href="/"
+          >
+            <img
+              alt="Logo"
+              class="af-logo__brand"
+              src="logo-axa.svg"
+            />
+          </a>
+          <h2
+            class="af-header__title"
+          >
+            Starter kit
+            <small
+              class="af-header__subtitle"
+            >
+              A little project as a demo for all our tools
+            </small>
+          </h2>
+        </div>
+        <div
+          class="af-info-user"
+        >
+          <a
+            class="af-info-user__link"
+            href="#"
+            title="Voir mon profil"
+          >
+            <span
+              class="af-info-user__name"
+            >
+              Jean Pascal
+            </span>
+            <span
+              class="af-info-user__profile"
+            >
+              [Inspecteur]
+            </span>
+          </a>
+        </div>
+      </header>
+    </div>
+  </div>
+</DocumentFragment>
+`;
