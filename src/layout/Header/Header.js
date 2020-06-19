@@ -11,9 +11,8 @@ const HeaderComponent = ({ userName }) => (
       subtitle="A little project as a demo for all our tools"
       img={logo}
       alt="Logo"
-      onClick={() => {}}
     />
-    <User name={userName} href="#" profile="Inspecteur" onClick={() => {}} />
+    <User name={userName} href="#" profile="Inspecteur" />
   </Header>
 );
 

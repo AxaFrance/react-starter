@@ -140,7 +140,7 @@ exports[`1. Renders Menu component without crashing 1`] = `
       class="af-title-bar"
     >
       <div
-        class="af-title-bar__wrapper container-fluid container"
+        class="container af-title-bar__wrapper"
       >
         <h1
           class="af-title-bar__title"
